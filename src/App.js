@@ -4,7 +4,7 @@ function App() {
   console.log();
   let as;
   return (
-              <div>
+            <div>
       <h1>Setup Eslint, prettier and git husky</h1>
     </div>
   );
