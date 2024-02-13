@@ -1,11 +1,12 @@
-import './App.css';
+import "./App.css";
 
 function App() {
-  console.log()
+  console.log();
+  let as;
   return (
-      <div>
-            <h1>Setup Eslint, prettier and git husky</h1>
-  </div>
+              <div>
+      <h1>Setup Eslint, prettier and git husky</h1>
+    </div>
   );
 }
 
