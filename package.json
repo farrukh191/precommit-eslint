@@ -25,13 +25,12 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": ["eslint"],
-    "*":["prettier --write --ignore-unknown"]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "*.{js,jsx,ts,tsx}": [
+      "eslint"
+    ],
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
   },
   "eslintConfig": {
     "extends": [
